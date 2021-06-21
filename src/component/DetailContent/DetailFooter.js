@@ -3,18 +3,16 @@ import React from 'react';
 class DetailFooter extends React.Component {
     constructor(props) {
         super(props);
-        this.state={
-            continuebtn:false
+        this.state = {
+            continuebtn: false
         }
     }
 
-    backToHome=(evt)=>
-    {
+    backToHome = (evt) => {
         evt.preventDefault();
         this.props.callback(false);
     }
-    openAgreeModal=(evt)=>
-    {
+    openAgreeModal = (evt) => {
         evt.preventDefault();
         this.props.callback1(true);
     }
@@ -24,7 +22,7 @@ class DetailFooter extends React.Component {
                 <div className="container">
                     <div className="d-footer">
                         <button className="btn btn-primary btn-cus-b" onClick={this.backToHome}><span className="s-bc">Back</span></button>
-                        <button className={`btn btn-primary  btn-cus-c ${this.props.btnenable ? '':'disabled'}`} onClick={this.openAgreeModal}><span className="s-bc">Continue</span></button>
+                        <button className={`btn btn-primary  btn-cus-c ${this.props.btnenable ? '' : 'disabled'}`} onClick={this.openAgreeModal}><span className="s-bc">Continue</span></button>
                     </div>
                 </div>
             </section>

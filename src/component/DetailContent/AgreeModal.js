@@ -8,8 +8,8 @@ class AgreeModal extends React.Component {
     };
   }
   componentDidMount(props) {
-    const {open} =this.props;
-    this.setState({show:open});
+    const { open } = this.props;
+    this.setState({ show: open });
   }
   onCloseModal = () => {
     this.setState({ show: false });
@@ -38,7 +38,7 @@ class AgreeModal extends React.Component {
           <div className="modal-content m-wt">
             <div className="modal-header">
               <h5 className="modal-title" id="exampleModalLongTitle">
-               Rules of Entry
+                Rules of Entry
               </h5>
               <button
                 type="button"
@@ -55,11 +55,11 @@ class AgreeModal extends React.Component {
             <div className="modal-body">
               <div className="row p-ch">
                 <p>
-                        I understand this movie is rated <b>PG15</b>
+                  I understand this movie is rated <b>PG15</b>
                 </p>
                 <br />
                 <p>
-                     Guests under the <b>age of 12</b> must be accompanied by a guardian
+                  Guests under the <b>age of 12</b> must be accompanied by a guardian
                 </p>
                 <br />
                 <p>Children under the <b>age of 3 </b>will not be permitted in the cinema</p><br />
