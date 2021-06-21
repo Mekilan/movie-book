@@ -107,7 +107,8 @@
 }
 .inner-scroll {
   overflow-y: scroll;
-  height: 42vh;
+    height: 40vh;
+    margin-top: 35px;
 }
 .ln-span {
   font-size: 11px;
@@ -168,11 +169,12 @@
   background: #05c3de !important;
   opacity: 1 !important;
   font-size: 0px !important;
+  width: 48px;
+    height: 48px;
 }
-.x-cls
-{
-  font-size: 18px;
-    color: #ffffff;
+span.x-cls {
+  color: #fff;
+  font-size: 17px;
 }
 .btn.btn-default.active
 {

@@ -611,7 +611,7 @@ class Movielist extends React.Component {
                                         <div className={item.typeclass}><span>{item.type}</span></div>
                                         <div className="card-body">
                                             <ul className="cr-ul">
-                                                <li className="m-txt">{item.mname}</li>
+                                                <li className="m-txt"><b>{item.mname}</b></li>
                                                 <li className="m-txt">{item.mcatg}</li>
                                             </ul>
                                         </div>
